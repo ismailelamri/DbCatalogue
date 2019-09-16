@@ -45,9 +45,9 @@ namespace MyCatalog.Controllers
         [HttpPost]
         public IActionResult SaveProduit(Product p,string Designation)
         {
+            Product produit = DbContext.Produits.Find(Designation);
 
-            Boolean itemToSearch = FindItem(Designation);
-            if (ModelState.IsValid && itemToSearch == true)
+            if (ModelState.IsValid && ! p.Designation.Equals(produit))
             {
                 DbContext.Produits.Add(p);
                 DbContext.SaveChanges();
@@ -115,15 +115,7 @@ namespace MyCatalog.Controllers
                .Where(p => p.Designation.Contains(Designation))
                .ToList();
 
-            if(produits.Count() == 0)
-            {
-                return true; 
-            }
-            else
-            {
-                return false;
-            }
-            //return (produits == null) ? true : false;
+            (produis == null) ? true : false;
 
         }
 

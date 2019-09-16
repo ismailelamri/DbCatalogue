@@ -7199,11 +7199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\elaism00\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7222,8 +7222,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\MyCatalog\\MyCatalog.csproj": {
-              "projectPath": "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\MyCatalog\\MyCatalog.csproj"
+            "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\MyCatalog\\MyCatalog.csproj": {
+              "projectPath": "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\MyCatalog\\MyCatalog.csproj"
             }
           }
         }

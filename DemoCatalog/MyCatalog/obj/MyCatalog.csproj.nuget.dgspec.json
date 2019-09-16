@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\MyCatalog\\MyCatalog.csproj": {}
+    "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\MyCatalog\\MyCatalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\MyCatalog\\MyCatalog.csproj": {
+    "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\MyCatalog\\MyCatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\MyCatalog\\MyCatalog.csproj",
+        "projectUniqueName": "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\MyCatalog\\MyCatalog.csproj",
         "projectName": "MyCatalog",
-        "projectPath": "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\MyCatalog\\MyCatalog.csproj",
+        "projectPath": "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\MyCatalog\\MyCatalog.csproj",
         "packagesPath": "C:\\Users\\elaism00\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elaism00\\source\\repos\\DemoCatalog\\MyCatalog\\obj\\",
+        "outputPath": "C:\\Users\\elaism00\\Desktop\\applicationDev\\DbCatalogue\\DemoCatalog\\MyCatalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
