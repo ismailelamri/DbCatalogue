@@ -1,0 +1,16 @@
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\bin\Debug\netcoreapp2.1\MyCatalog.Views.dll
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\bin\Debug\netcoreapp2.1\MyCatalog.Views.pdb
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\bin\Debug\netcoreapp2.1\MyCatalog.dll
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\bin\Debug\netcoreapp2.1\MyCatalog.pdb
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CopyComplete
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Users\elaism00\source\repos\DemoCatalog\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb

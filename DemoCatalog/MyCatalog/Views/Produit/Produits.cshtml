@@ -1,0 +1,86 @@
+﻿@model IEnumerable<MyCatalog.Service.Product>
+
+@{
+    ViewData["Title"] = "Produits";
+}
+
+<h2>Produits</h2>
+
+<p>
+    <a asp-action="CreateFrom">Add new Product </a>
+    <a asp-action="ToSwitch">List Category</a>
+</p>
+
+<table class="table">
+  
+    <thead>
+        <div class="container">
+            <form method="get" asp-action="Index">
+                <label>Mot cle : </label>
+                <input type="text" name="motCle" />
+                <button type="submit" class="btn btn-primary">Search </button>
+            </form>
+        </div>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Designation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Designation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantite)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.Categoryname)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditFrom", new { ProductId = item.ProductId })
+                    @Html.ActionLink("Details", "DetailsProduct", new { ProductId = item.ProductId })
+                    @Html.ActionLink("Delete", "DeleteForm", new { ProductId = item.ProductId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <ul class=" nav nav-pills">
+        @{
+            for (int i = 0; i < ViewBag.totalPages; i++)
+            {
+                string className = "";
+
+                if (i == ViewBag.currentPage)
+                {
+                    className = "active";
+                }
+                <li class="@className">
+                    <a asp-action="Index" asp-route-page="@i" asp-route-motCle="@ViewBag.motCle">@(i + 1)</a>
+                </li>
+            }
+        }
+
+    </ul>
+    <form method="get" asp-action="Index">
+        <button type="submit"  class="btn btn-primary"  >Back To All Product </button>
+    </form>
+</div>
